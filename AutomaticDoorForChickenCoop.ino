@@ -5,7 +5,7 @@ const int PIN_UP_HALL_EFFECT_SENSOR = 10;
 const int PIN_DOWN_HALL_EFFECT_SENSOR = 11;
 const int PIN_THE_BUTTON_TO_CLOSE = 18; //must be a pin that handles interruption. For Arduino Mega 2,3,18,19,20,21.
 
-const int MINI_ANALOG_VALUE_FROM_PHOTORESISTOR_FOR_DAYTIME = 100; //Value found by empirical method...
+const float MINI_ANALOG_VALUE_FROM_PHOTORESISTOR_FOR_DAYTIME = 100; //Value found by empirical method...
 
 float analogValueFromPhotoresistor = 0;
 
